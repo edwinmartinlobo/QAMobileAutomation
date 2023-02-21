@@ -1,0 +1,35 @@
+{
+  "android": {
+    "platformName": "Android",
+    "platformVersion": "10.0",
+    "AUTOMATION_NAME": "UIAutomator2",
+    "deviceName": "d8b93ec7",
+    "noSign": true,
+    "uiautomator2ServerInstallTimeout":60000,
+    "app": "./sample.apk",
+    "APP_PACKAGE":"com.myantskiin",
+    "APP_ACTIVITY":"com.myantskiin.MainActivity"
+  },
+  "iOS": {
+    "platformName": "iOS",
+    "DEVICE_NAME": "iPhone",
+    "AUTOMATION_NAME": "XCUITest",
+    "COMMAND_TIMEOUTS": 120,
+    "wdaConnectionTimeout": 80000,
+    "preventWDAAttachments": true,
+    "clearSystemFiles": true,
+    "shouldUseSingletonTestManager": false,
+    "simpleIsVisibleCheck": true,
+    "maxTypingFrequency": 10,
+    "XCODE_ORG_ID":"CKQ28Q23M5",
+    "automationName": "XCUITest",
+    "app":"./src/main/resources/apps/Payload/skiin.app",
+    "BUNDLE_ID":"com.skiin.myskiin",
+    "XCODE_SIGNING_ID":"iPhone Developer",
+    "USE_NEW_WDA":false,
+    "WDA_LOCAL_PORT":8100
+
+  },
+  "MTAFServiceHost":"127.0.0.1",
+  "MTAFServicePort":"3000"
+}
